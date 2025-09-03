@@ -84,7 +84,7 @@ public class LibraryTracker {
             System.out.print("Enter choice: ");
             
             int choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -112,7 +112,7 @@ public class LibraryTracker {
                     sc.close();
                     return;
                 default:
-                    System.out.println("Invalid choice. Try again.");
+                    System.out.println("Invalid choice. Try again:");
             }
         }
     }
