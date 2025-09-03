@@ -108,7 +108,7 @@ public class LibraryTracker {
                     library.returnBook(returnTitle);
                     break;
                 case 5:
-                    System.out.println("Exiting... Goodbye!");
+                    System.out.println("Exiting... Goodbye");
                     sc.close();
                     return;
                 default:
