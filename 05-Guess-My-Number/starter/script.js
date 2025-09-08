@@ -28,7 +28,7 @@ document.querySelector('.check').addEventListener('click', function () {
       score--;
       document.querySelector('.score').textContent = score;
     } else {
-      document.querySelector('.message').textContent = 'You Lost the game';
+      document.querySelector('.message').textContent = 'You Lost the game!';
     }
   } else if (guess < secretNumber) {
     document.querySelector('.message').textContent = 'Too low!';
